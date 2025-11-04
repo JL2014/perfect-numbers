@@ -1,6 +1,7 @@
 # perfect-numbers
 
-https://oeis.org/A000396
+https://oeis.org/A000396\
+https://oeis.org/A197594
 
 - 6 = 2<sup>1</sup>(2<sup>2</sup>-1)
 - 28 = 2<sup>2</sup>(2<sup>3</sup>-1) = 1³ + 3³
