@@ -30,9 +30,8 @@ void sum_odd_cubes_print(const string &Nstr) // calcule S(N) = somme des cubes d
     fmpz_mul_ui(result, result, 2UL); // 2*m^4
     fmpz_sub(result, result, tmp);    // - m^2
 
-    char *out = fmpz_get_str(NULL, 10, result);
-    cout << out << endl;
-    flint_free(out);
+    fmpz_print(result);
+    cout << endl;
 
     fmpz_clear(N); fmpz_clear(m); fmpz_clear(tmp); fmpz_clear(result);
 }
